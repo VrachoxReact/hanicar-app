@@ -1,0 +1,113 @@
+.habit-input-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.habit-input-field {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+}
+
+.habit-submit-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.habit-submit-button:hover {
+  background-color: #0056b3;
+}
+
+//
+
+.habit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.habit-name {
+  flex: 2;
+}
+
+.habit-time {
+  flex: 1;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.habit-delete-button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.habit-delete-button:hover {
+  background-color: #cc0405;
+}
+
+//
+.habit-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.habit-list > li + li {
+  margin-top: 1rem;
+}
+
+//
+/* Main App container */
+.App {
+  font-family: "Arial", sans-serif;
+  width: 80%;
+  max-width: 600px;
+  margin: 3rem auto;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styles, buttons, and general components are inherited from previous CSS codes. */
+
+/* Optional Global Styles (can help in overall appearance) */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #e9ecef;
+}
+
+/* Styles to make the list and input visually appealing */
+.habit-input-form {
+  margin-bottom: 1.5rem;
+}
+
+.habit-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.habit-list > li + li {
+  margin-top: 1rem;
+}
